@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="1" total="2" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="67679" started-at="2020-07-13T05:10:25Z" finished-at="2020-07-13T05:11:33Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="67679" started-at="2020-07-13T05:10:25Z" finished-at="2020-07-13T05:11:33Z">
+      <class name="basicSelenium.ActionDemo">
+        <test-method status="FAIL" signature="dragAndDrop()[pri:0, instance:basicSelenium.ActionDemo@1b26f7b2]" name="dragAndDrop" duration-ms="67513" started-at="2020-07-13T05:10:25Z" finished-at="2020-07-13T05:11:33Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Failed to connect to binary FirefoxBinary(C:\Program Files\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
+version 2018.08.22.1219-93becf29
+1594617048033addons.xpiDEBUGRegistering manifest for C:\Program Files\Mozilla Firefox\browser\features\aushelper@mozilla.org.xpi
+1594617048035addons.xpiDEBUGCalling bootstrap method startup on aushelper@mozilla.org version 2.0
+1594617048038addons.xpiDEBUGRegistering manifest for C:\Program Files\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1594617048040addons.xpiDEBUGCalling bootstrap method startup on firefox@getpocket.com version 1.0.5
+1594617048368addons.xpiDEBUGRegistering manifest for C:\Program Files\Mozilla Firefox\browser\features\formautofill@mozilla.org.xpi
+1594617048370addons.xpiDEBUGCalling bootstrap method startup on formautofill@mozilla.org version 1.0
+1594617048371addons.xpiDEBUGRegistering manifest for C:\Program Files\Mozilla Firefox\browser\features\onboarding@mozilla.org.xpi
+1594617048373addons.xpiDEBUGCalling bootstrap method startup on onboarding@mozilla.org version 1.0
+1594617048373addons.xpiDEBUGRegistering manifest for C:\Program Files\Mozilla Firefox\browser\features\screenshots@mozilla.org.xpi
+1594617048375addons.xpiDEBUGCalling bootstrap method startup on screenshots@mozilla.org version 33.0.0
+1594617048375addons.xpiDEBUGRegistering manifest for C:\Program Files\Mozilla Firefox\browser\features\webcompat-reporter@mozilla.org.xpi
+1594617048377addons.xpiDEBUGCalling bootstrap method startup on webcompat-reporter@mozilla.org version 1.0.0
+1594617048377addons.xpiDEBUGRegistering manifest for C:\Program Files\Mozilla Firefox\browser\features\webcompat@mozilla.org.xpi
+1594617048400addons.xpiDEBUGCalling bootstrap method startup on webcompat@mozilla.org version 2.0
+1594617048448addons.managerDEBUGRegistering shutdown blocker for XPIProvider
+1594617048448addons.managerDEBUGProvider finished startup: XPIProvider
+1594617048448addons.managerDEBUGStarting provider: LightweightThemeManager
+1594617048448addons.managerDEBUGRegistering shutdown blocker for LightweightThemeManager
+1594617048449addons.managerDEBUGProvider finished startup: LightweightThemeManager
+1594617048450addons.managerDEBUGStarting provider: GMPProvider
+1594617048501addons.managerDEBUGRegistering shutdown blocker for GMPProvider
+1594617048501addons.managerDEBUGProvider finished startup: GMPProvider
+1594617048501addons.managerDEBUGStarting provider: PluginProvider
+1594617048501addons.managerDEBUGRegistering shutdown blocker for PluginProvider
+1594617048502addons.managerDEBUGProvider finished startup: PluginProvider
+1594617048505addons.managerDEBUGCompleted startup sequence
+1594617061260addons.repositoryDEBUGNo addons.json found.
+[Child 6028, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 6636, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+1594617079424addons.xpiDEBUGIgnoring file: name is not a valid add-on ID: C:\Users\DELL\AppData\Local\Temp\anonymous4657288282724420747webdriver-profile\extensions\webdriver-staging
+1594617079426addons.xpiDEBUGExisting add-on activity-stream@mozilla.org in app-system-defaults
+1594617079435addons.xpiDEBUGExisting add-on aushelper@mozilla.org in app-system-defaults
+1594617079436addons.xpiDEBUGExisting add-on firefox@getpocket.com in app-system-defaults
+1594617079438addons.xpiDEBUGExisting add-on formautofill@mozilla.org in app-system-defaults
+1594617079439addons.xpiDEBUGExisting add-on onboarding@mozilla.org in app-system-defaults
+1594617079440addons.xpiDEBUGExisting add-on screenshots@mozilla.org in app-system-defaults
+1594617079441addons.xpiDEBUGExisting add-on webcompat-reporter@mozilla.org in app-system-defaults
+1594617079442addons.xpiDEBUGExisting add-on webcompat@mozilla.org in app-system-defaults
+1594617079444addons.xpiDEBUGscanForChanges changed: false, state: {}
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 2583: TypeError: addon is null
+
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'DELL-PC', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_151'
+Driver info: driver.version: FirefoxDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(C:\Program Files\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
+version 2018.08.22.1219-93becf29
+1594617048033addons.xpiDEBUGRegistering manifest for C:\Program Files\Mozilla Firefox\browser\features\aushelper@mozilla.org.xpi
+1594617048035addons.xpiDEBUGCalling bootstrap method startup on aushelper@mozilla.org version 2.0
+1594617048038addons.xpiDEBUGRegistering manifest for C:\Program Files\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1594617048040addons.xpiDEBUGCalling bootstrap method startup on firefox@getpocket.com version 1.0.5
+1594617048368addons.xpiDEBUGRegistering manifest for C:\Program Files\Mozilla Firefox\browser\features\formautofill@mozilla.org.xpi
+1594617048370addons.xpiDEBUGCalling bootstrap method startup on formautofill@mozilla.org version 1.0
+1594617048371addons.xpiDEBUGRegistering manifest for C:\Program Files\Mozilla Firefox\browser\features\onboarding@mozilla.org.xpi
+1594617048373addons.xpiDEBUGCalling bootstrap method startup on onboarding@mozilla.org version 1.0
+1594617048373addons.xpiDEBUGRegistering manifest for C:\Program Files\Mozilla Firefox\browser\features\screenshots@mozilla.org.xpi
+1594617048375addons.xpiDEBUGCalling bootstrap method startup on screenshots@mozilla.org version 33.0.0
+1594617048375addons.xpiDEBUGRegistering manifest for C:\Program Files\Mozilla Firefox\browser\features\webcompat-reporter@mozilla.org.xpi
+1594617048377addons.xpiDEBUGCalling bootstrap method startup on webcompat-reporter@mozilla.org version 1.0.0
+1594617048377addons.xpiDEBUGRegistering manifest for C:\Program Files\Mozilla Firefox\browser\features\webcompat@mozilla.org.xpi
+1594617048400addons.xpiDEBUGCalling bootstrap method startup on webcompat@mozilla.org version 2.0
+1594617048448addons.managerDEBUGRegistering shutdown blocker for XPIProvider
+1594617048448addons.managerDEBUGProvider finished startup: XPIProvider
+1594617048448addons.managerDEBUGStarting provider: LightweightThemeManager
+1594617048448addons.managerDEBUGRegistering shutdown blocker for LightweightThemeManager
+1594617048449addons.managerDEBUGProvider finished startup: LightweightThemeManager
+1594617048450addons.managerDEBUGStarting provider: GMPProvider
+1594617048501addons.managerDEBUGRegistering shutdown blocker for GMPProvider
+1594617048501addons.managerDEBUGProvider finished startup: GMPProvider
+1594617048501addons.managerDEBUGStarting provider: PluginProvider
+1594617048501addons.managerDEBUGRegistering shutdown blocker for PluginProvider
+1594617048502addons.managerDEBUGProvider finished startup: PluginProvider
+1594617048505addons.managerDEBUGCompleted startup sequence
+1594617061260addons.repositoryDEBUGNo addons.json found.
+[Child 6028, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 6636, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+1594617079424addons.xpiDEBUGIgnoring file: name is not a valid add-on ID: C:\Users\DELL\AppData\Local\Temp\anonymous4657288282724420747webdriver-profile\extensions\webdriver-staging
+1594617079426addons.xpiDEBUGExisting add-on activity-stream@mozilla.org in app-system-defaults
+1594617079435addons.xpiDEBUGExisting add-on aushelper@mozilla.org in app-system-defaults
+1594617079436addons.xpiDEBUGExisting add-on firefox@getpocket.com in app-system-defaults
+1594617079438addons.xpiDEBUGExisting add-on formautofill@mozilla.org in app-system-defaults
+1594617079439addons.xpiDEBUGExisting add-on onboarding@mozilla.org in app-system-defaults
+1594617079440addons.xpiDEBUGExisting add-on screenshots@mozilla.org in app-system-defaults
+1594617079441addons.xpiDEBUGExisting add-on webcompat-reporter@mozilla.org in app-system-defaults
+1594617079442addons.xpiDEBUGExisting add-on webcompat@mozilla.org in app-system-defaults
+1594617079444addons.xpiDEBUGscanForChanges changed: false, state: {}
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 2583: TypeError: addon is null
+
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'DELL-PC', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_151'
+Driver info: driver.version: FirefoxDriver
+at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:125)
+at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:271)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:119)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:216)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:211)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:207)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:120)
+at basicSelenium.ActionDemo.dragAndDrop(ActionDemo.java:17)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.firefox.NotConnectedException: Unable to connect to host 127.0.0.1 on port 7055 after 45000 ms. Firefox console output:
+version 2018.08.22.1219-93becf29
+1594617048033addons.xpiDEBUGRegistering manifest for C:\Program Files\Mozilla Firefox\browser\features\aushelper@mozilla.org.xpi
+1594617048035addons.xpiDEBUGCalling bootstrap method startup on aushelper@mozilla.org version 2.0
+1594617048038addons.xpiDEBUGRegistering manifest for C:\Program Files\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1594617048040addons.xpiDEBUGCalling bootstrap method startup on firefox@getpocket.com version 1.0.5
+1594617048368addons.xpiDEBUGRegistering manifest for C:\Program Files\Mozilla Firefox\browser\features\formautofill@mozilla.org.xpi
+1594617048370addons.xpiDEBUGCalling bootstrap method startup on formautofill@mozilla.org version 1.0
+1594617048371addons.xpiDEBUGRegistering manifest for C:\Program Files\Mozilla Firefox\browser\features\onboarding@mozilla.org.xpi
+1594617048373addons.xpiDEBUGCalling bootstrap method startup on onboarding@mozilla.org version 1.0
+1594617048373addons.xpiDEBUGRegistering manifest for C:\Program Files\Mozilla Firefox\browser\features\screenshots@mozilla.org.xpi
+1594617048375addons.xpiDEBUGCalling bootstrap method startup on screenshots@mozilla.org version 33.0.0
+1594617048375addons.xpiDEBUGRegistering manifest for C:\Program Files\Mozilla Firefox\browser\features\webcompat-reporter@mozilla.org.xpi
+1594617048377addons.xpiDEBUGCalling bootstrap method startup on webcompat-reporter@mozilla.org version 1.0.0
+1594617048377addons.xpiDEBUGRegistering manifest for C:\Program Files\Mozilla Firefox\browser\features\webcompat@mozilla.org.xpi
+1594617048400addons.xpiDEBUGCalling bootstrap method startup on webcompat@mozilla.org version 2.0
+1594617048448addons.managerDEBUGRegistering shutdown blocker for XPIProvider
+1594617048448addons.managerDEBUGProvider finished startup: XPIProvider
+1594617048448addons.managerDEBUGStarting provider: LightweightThemeManager
+1594617048448addons.managerDEBUGRegistering shutdown blocker for LightweightThemeManager
+1594617048449addons.managerDEBUGProvider finished startup: LightweightThemeManager
+1594617048450addons.managerDEBUGStarting provider: GMPProvider
+1594617048501addons.managerDEBUGRegistering shutdown blocker for GMPProvider
+1594617048501addons.managerDEBUGProvider finished startup: GMPProvider
+1594617048501addons.managerDEBUGStarting provider: PluginProvider
+1594617048501addons.managerDEBUGRegistering shutdown blocker for PluginProvider
+1594617048502addons.managerDEBUGProvider finished startup: PluginProvider
+1594617048505addons.managerDEBUGCompleted startup sequence
+1594617061260addons.repositoryDEBUGNo addons.json found.
+[Child 6028, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 6636, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+1594617079424addons.xpiDEBUGIgnoring file: name is not a valid add-on ID: C:\Users\DELL\AppData\Local\Temp\anonymous4657288282724420747webdriver-profile\extensions\webdriver-staging
+1594617079426addons.xpiDEBUGExisting add-on activity-stream@mozilla.org in app-system-defaults
+1594617079435addons.xpiDEBUGExisting add-on aushelper@mozilla.org in app-system-defaults
+1594617079436addons.xpiDEBUGExisting add-on firefox@getpocket.com in app-system-defaults
+1594617079438addons.xpiDEBUGExisting add-on formautofill@mozilla.org in app-system-defaults
+1594617079439addons.xpiDEBUGExisting add-on onboarding@mozilla.org in app-system-defaults
+1594617079440addons.xpiDEBUGExisting add-on screenshots@mozilla.org in app-system-defaults
+1594617079441addons.xpiDEBUGExisting add-on webcompat-reporter@mozilla.org in app-system-defaults
+1594617079442addons.xpiDEBUGExisting add-on webcompat@mozilla.org in app-system-defaults
+1594617079444addons.xpiDEBUGscanForChanges changed: false, state: {}
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 2583: TypeError: addon is null
+
+at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:113)
+... 32 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dragAndDrop -->
+      </class> <!-- basicSelenium.ActionDemo -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
